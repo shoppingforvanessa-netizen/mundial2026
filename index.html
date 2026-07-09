@@ -288,21 +288,30 @@ function initScores(){
   scores["Croatia|Ghana"] = {s1:2, s2:1};
   // ── RONDA DE 32 ──
   scores["Canada|South Africa"] = {s1:1, s2:0};
-  // scores["Brazil|Japan"] = {s1:0, s2:0};
-  // scores["Germany|Paraguay"] = {s1:0, s2:0};
-  // scores["Netherlands|Morocco"] = {s1:0, s2:0};
-  // scores["Ivory Coast|Norway"] = {s1:0, s2:0};
-  // scores["France|Sweden"] = {s1:0, s2:0};
-  // scores["Mexico|Ecuador"] = {s1:0, s2:0};
-  // scores["England|DR Congo"] = {s1:0, s2:0};
-  // scores["Belgium|Senegal"] = {s1:0, s2:0};
-  // scores["USA|Bosnia and Herzegovina"] = {s1:0, s2:0};
-  // scores["Spain|Austria"] = {s1:0, s2:0};
-  // scores["Portugal|Croatia"] = {s1:0, s2:0};
-  // scores["Switzerland|Algeria"] = {s1:0, s2:0};
-  // scores["Australia|Egypt"] = {s1:0, s2:0};
-  // scores["Argentina|Cape Verde"] = {s1:0, s2:0};
-  // scores["Colombia|Ghana"] = {s1:0, s2:0};
+  scores["Brazil|Japan"] = {s1:2, s2:1};
+  scores["Germany|Paraguay"] = {s1:1, s2:1}; // PAR advances PKs
+  scores["Netherlands|Morocco"] = {s1:1, s2:1}; // MAR advances PKs
+  scores["Ivory Coast|Norway"] = {s1:1, s2:2};
+  scores["France|Sweden"] = {s1:3, s2:0};
+  scores["Mexico|Ecuador"] = {s1:2, s2:0};
+  scores["England|DR Congo"] = {s1:2, s2:1};
+  scores["Belgium|Senegal"] = {s1:3, s2:2};
+  scores["USA|Bosnia and Herzegovina"] = {s1:2, s2:0};
+  scores["Spain|Austria"] = {s1:3, s2:0};
+  scores["Portugal|Croatia"] = {s1:2, s2:1};
+  scores["Switzerland|Algeria"] = {s1:2, s2:0};
+  scores["Australia|Egypt"] = {s1:1, s2:1}; // EGY advances PKs
+  scores["Argentina|Cape Verde"] = {s1:3, s2:2};
+  scores["Colombia|Ghana"] = {s1:1, s2:0};
+  // ── RONDA DE 16 ──
+  scores["Morocco|Canada"] = {s1:3, s2:0};
+  scores["France|Paraguay"] = {s1:1, s2:0};
+  scores["Norway|Brazil"] = {s1:2, s2:1};
+  scores["England|Mexico"] = {s1:3, s2:2};
+  scores["Spain|Portugal"] = {s1:1, s2:0};
+  scores["Belgium|USA"] = {s1:4, s2:1};
+  scores["Argentina|Egypt"] = {s1:3, s2:2};
+  scores["Switzerland|Colombia"] = {s1:0, s2:0}; // SUI advances PKs
 }
 // ════════════════════════════════════════════════════════════════
 
@@ -439,19 +448,19 @@ const MATCHES=[
   {utc:"2026-07-03T22:00:00Z",a:"Argentina",b:"Cape Verde",g:"RONDA DE 32",v:"Hard Rock, Miami"},
   {utc:"2026-07-04T01:30:00Z",a:"Colombia",b:"Ghana",g:"RONDA DE 32",v:"Arrowhead, Kansas City"},
   // ── RONDA DE 16 ──
-  {utc:"2026-07-04T17:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"Houston Stadium (NRG)"},
-  {utc:"2026-07-04T21:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"Lincoln Financial, Philadelphia"},
-  {utc:"2026-07-05T20:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"MetLife, NJ"},
-  {utc:"2026-07-06T00:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"Estadio Azteca, CDMX"},
-  {utc:"2026-07-06T19:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"AT&T Stadium, Dallas"},
-  {utc:"2026-07-07T00:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"Lumen Field, Seattle"},
-  {utc:"2026-07-07T16:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"Mercedes-Benz, Atlanta"},
-  {utc:"2026-07-07T20:00:00Z",a:"TBD",b:"TBD",g:"RONDA DE 16",v:"BC Place, Vancouver"},
+  {utc:"2026-07-04T17:00:00Z",a:"Morocco",b:"Canada",g:"RONDA DE 16",v:"Gillette Stadium, Boston"},
+  {utc:"2026-07-04T21:00:00Z",a:"France",b:"Paraguay",g:"RONDA DE 16",v:"AT&T Stadium, Dallas"},
+  {utc:"2026-07-05T20:00:00Z",a:"Norway",b:"Brazil",g:"RONDA DE 16",v:"MetLife, NJ"},
+  {utc:"2026-07-06T00:00:00Z",a:"England",b:"Mexico",g:"RONDA DE 16",v:"SoFi Stadium, LA"},
+  {utc:"2026-07-06T19:00:00Z",a:"Spain",b:"Portugal",g:"RONDA DE 16",v:"Mercedes-Benz, Atlanta"},
+  {utc:"2026-07-07T00:00:00Z",a:"Belgium",b:"USA",g:"RONDA DE 16",v:"Lumen Field, Seattle"},
+  {utc:"2026-07-07T16:00:00Z",a:"Argentina",b:"Egypt",g:"RONDA DE 16",v:"Hard Rock, Miami"},
+  {utc:"2026-07-07T20:00:00Z",a:"Switzerland",b:"Colombia",g:"RONDA DE 16",v:"Arrowhead, Kansas City"},
   // ── CUARTOS DE FINAL ──
-  {utc:"2026-07-09T20:00:00Z",a:"TBD",b:"TBD",g:"CUARTOS DE FINAL",v:"Gillette Stadium, Boston"},
-  {utc:"2026-07-10T19:00:00Z",a:"TBD",b:"TBD",g:"CUARTOS DE FINAL",v:"SoFi Stadium, LA"},
-  {utc:"2026-07-11T21:00:00Z",a:"TBD",b:"TBD",g:"CUARTOS DE FINAL",v:"Hard Rock, Miami"},
-  {utc:"2026-07-12T01:00:00Z",a:"TBD",b:"TBD",g:"CUARTOS DE FINAL",v:"Arrowhead, Kansas City"},
+  {utc:"2026-07-09T20:00:00Z",a:"Morocco",b:"France",g:"CUARTOS DE FINAL",v:"Gillette Stadium, Boston"},
+  {utc:"2026-07-10T19:00:00Z",a:"Belgium",b:"Spain",g:"CUARTOS DE FINAL",v:"SoFi Stadium, LA"},
+  {utc:"2026-07-11T21:00:00Z",a:"Norway",b:"England",g:"CUARTOS DE FINAL",v:"Hard Rock, Miami"},
+  {utc:"2026-07-12T01:00:00Z",a:"Argentina",b:"Switzerland",g:"CUARTOS DE FINAL",v:"Arrowhead, Kansas City"},
   // ── SEMIFINALES ──
   {utc:"2026-07-14T19:00:00Z",a:"TBD",b:"TBD",g:"SEMIFINAL",v:"AT&T Stadium, Dallas"},
   {utc:"2026-07-15T19:00:00Z",a:"TBD",b:"TBD",g:"SEMIFINAL",v:"Mercedes-Benz, Atlanta"},
